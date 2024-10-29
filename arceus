@@ -6,11 +6,13 @@ local player = Players.LocalPlayer
 local function showLoadingNotification()
 StarterGui:SetCore("SendNotification", {
 Title = "Arceus X";
-Text = "Avtor Scripts Best - Theqop";
+Text = "Avtor Scripts best - Theqop";
 Duration = 5; -- Длительность уведомления в секундах
 })
 end
 
+-- Пример использования функции
+showLoadingNotification()
 
 
 -- Arceus X v3 Remake
